@@ -116,10 +116,10 @@
   border-radius: 30px;
   cursor: pointer;
   transition: 0.3s;
-  display: flex;              /* flex layout for icon + text */
-  align-items: center;        /* center vertically */
-  justify-content: center;    /* center content */
-  gap: 10px;                  /* space between icon and text */
+  display: flex;             
+  align-items: center;        
+  justify-content: center;    
+  gap: 10px;                  
 }
 
 button.act:hover {
@@ -129,15 +129,15 @@ button.act:hover {
 button.act .icon {
   width: 32px;
   height: 32px;
-  border-radius: 50%;         /* makes it a circle */
-  background: #fff;           /* white background for icon */
+  border-radius: 50%;         
+  background: #fff;           
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 button.act .icon i {
-  color: #0077ff;             /* arrow color matches button */
+  color: #0077ff;             
   font-size: 16px;
 }
 
@@ -147,4 +147,5 @@ button.act .icon i {
         gap: 20px;
       }
     }
+
   
